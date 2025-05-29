@@ -37,27 +37,12 @@ Experiment tracking with Weights & Biases (WandB)
 Installation
 The repository requires Python 3.7+ and the following key dependencies:
 
-bash
 Copy
 Edit
 pip install torch torchvision torchaudio
 pip install monai-weekly[tqdm,nibabel]
 pip install matplotlib pandas scikit-learn wandb openpyxl nibabel
-Alternatively, use the included package install script in the notebook:
 
-python
-Copy
-Edit
-def install_packages():
-    try:
-        import monai
-    except ImportError:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "monai-weekly[tqdm, nibabel]"])
-
-    try:
-        import matplotlib
-    except ImportError:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "matplotlib"])
 Dataset
 The data is loaded from an Excel spreadsheet containing metadata and paths to NIfTI MRI images. The dataset is split into training, validation, and test sets, ensuring no subject overlap across these splits.
 
