@@ -1,4 +1,4 @@
-# 🧠 VQ-VAE Training on 3D Medical Images
+## 🧠 Synthetic MRI Generation using VQ-VAE for 3D Medical Images
 
 This project implements a training pipeline for a **Vector Quantized Variational Autoencoder (VQ-VAE)** on 3D medical imaging data (e.g., brain MRIs in `.nii.gz` format). It uses **PyTorch**, **MONAI**, and **Weights & Biases** for logging.
 
