@@ -36,11 +36,11 @@ pip install -r requirements.txt
 1. Prepare your dataset:
     - CSV file with a column (e.g., `image`) pointing to `.nii.gz` image paths.
 2. Update the code with the path to your CSV and column name.
-3. Start training:
+3. Start training and testing:
 
 ```bash
 bash
-python train.py
+python vqvae_model_run.py
 ```
 
 ---
