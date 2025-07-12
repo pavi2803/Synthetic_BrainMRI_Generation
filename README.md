@@ -26,7 +26,6 @@ Install dependencies:
 
 ```bash
 bash
-Copy code
 pip install -r requirements.txt
 ```
 
@@ -41,7 +40,6 @@ pip install -r requirements.txt
 
 ```bash
 bash
-Copy code
 python train.py
 ```
 
@@ -61,7 +59,6 @@ python train.py
 
 ```
 plaintext
-Copy code
 Epoch 1: recons_loss=0.023, quantization_loss=0.001
 GPU Memory Allocated: 2000 MB
 ```
